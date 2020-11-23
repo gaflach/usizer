@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="src" displayName="src" projectFiles="true">
+      <logicalFolder name="ispd12" displayName="ispd12" projectFiles="true">
+        <itemPath>../../src/ispd12/Circuit.cpp</itemPath>
+        <itemPath>../../src/ispd12/Circuit.h</itemPath>
+        <itemPath>../../src/ispd12/Stepwatch.h</itemPath>
+        <itemPath>../../src/ispd12/Stopwatch.h</itemPath>
+        <itemPath>../../src/ispd12/Vcell.cpp</itemPath>
+        <itemPath>../../src/ispd12/Vcell.h</itemPath>
+        <itemPath>../../src/ispd12/global.cpp</itemPath>
+        <itemPath>../../src/ispd12/global.h</itemPath>
+        <itemPath>../../src/ispd12/main.cpp</itemPath>
+        <itemPath>../../src/ispd12/main.h</itemPath>
+        <itemPath>../../src/ispd12/parser_helper.cpp</itemPath>
+        <itemPath>../../src/ispd12/parser_helper.h</itemPath>
+        <itemPath>../../src/ispd12/timer_interface.cpp</itemPath>
+        <itemPath>../../src/ispd12/timer_interface.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../src</pElem>
+          </incDir>
+          <commandLine>-Wreturn-type -Wno-unused-result</commandLine>
+          <preprocessorList>
+            <Elem>_GLIBCXX_DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </compileType>
+      <item path="../../src/ispd12/Circuit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/Circuit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/Stepwatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/Stopwatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/Vcell.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/Vcell.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/global.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/parser_helper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/parser_helper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/timer_interface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd12/timer_interface.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../src</pElem>
+          </incDir>
+          <commandLine>-Wreturn-type -Wno-unused-result</commandLine>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../../src/ispd12/Circuit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/Circuit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/Stepwatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/Stopwatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/Vcell.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/Vcell.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/global.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/parser_helper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/parser_helper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd12/timer_interface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd12/timer_interface.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

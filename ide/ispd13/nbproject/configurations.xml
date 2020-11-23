@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="src" displayName="src" projectFiles="true">
+      <itemPath>../../src/ispd13/src/Circuit.cpp</itemPath>
+      <itemPath>../../src/ispd13/src/Circuit.h</itemPath>
+      <itemPath>../../src/ispd13/src/EdgeArray.h</itemPath>
+      <itemPath>../../src/ispd13/src/Makefile</itemPath>
+      <itemPath>../../src/ispd13/src/NewtonRaphson.cpp</itemPath>
+      <itemPath>../../src/ispd13/src/NewtonRaphson.h</itemPath>
+      <itemPath>../../src/ispd13/src/PracticalSocket.cpp</itemPath>
+      <itemPath>../../src/ispd13/src/PracticalSocket.h</itemPath>
+      <itemPath>../../src/ispd13/src/RCTree.h</itemPath>
+      <itemPath>../../src/ispd13/src/Stopwatch.h</itemPath>
+      <itemPath>../../src/ispd13/src/Vcell.cpp</itemPath>
+      <itemPath>../../src/ispd13/src/Vcell.h</itemPath>
+      <itemPath>../../src/ispd13/src/fmath.hpp</itemPath>
+      <itemPath>../../src/ispd13/src/global.cpp</itemPath>
+      <itemPath>../../src/ispd13/src/global.h</itemPath>
+      <itemPath>../../src/ispd13/src/main.cpp</itemPath>
+      <itemPath>../../src/ispd13/src/main.h</itemPath>
+      <itemPath>../../src/ispd13/src/parser_helper.cpp</itemPath>
+      <itemPath>../../src/ispd13/src/parser_helper.h</itemPath>
+      <itemPath>../../src/ispd13/src/timer_interface.cpp</itemPath>
+      <itemPath>../../src/ispd13/src/timer_interface.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../src</pElem>
+          </incDir>
+          <commandLine>-Wreturn-type -Wno-unused-result</commandLine>
+          <preprocessorList>
+            <Elem>_GLIBCXX_DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </compileType>
+      <item path="../../src/ispd13/src/Circuit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/Circuit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/EdgeArray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/NewtonRaphson.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/NewtonRaphson.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/PracticalSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/PracticalSocket.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/RCTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/Stopwatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/Vcell.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/Vcell.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/fmath.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/global.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/parser_helper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/parser_helper.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/timer_interface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/timer_interface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>6</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>../../src</pElem>
+          </incDir>
+          <commandLine>-Wreturn-type -Wno-unused-result</commandLine>
+          <preprocessorList>
+            <Elem>NDEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../../src/ispd13/src/Circuit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/Circuit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/EdgeArray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/NewtonRaphson.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/NewtonRaphson.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/PracticalSocket.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/PracticalSocket.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/RCTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/Stopwatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/Vcell.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/Vcell.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/fmath.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/global.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/parser_helper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/parser_helper.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/timer_interface.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../src/ispd13/src/timer_interface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

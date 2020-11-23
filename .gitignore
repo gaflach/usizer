@@ -1,0 +1,9 @@
+ide/ispd12/*
+!ide/ispd12/nbproject/
+ide/ispd12/nbproject/private
+
+ide/ispd13/*
+!ide/ispd13/nbproject/
+ide/ispd13/nbproject/private
+
+bin/*
